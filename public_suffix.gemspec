@@ -12,8 +12,6 @@ Gem::Specification.new do |s|
   s.description = "PublicSuffix can parse and decompose a domain name into top level domain, domain and subdomains."
   s.licenses    = ["MIT"]
 
-  s.required_ruby_version = ">= 2.1"
-
   s.require_paths    = ["lib"]
   s.files            = `git ls-files`.split("\n")
   s.test_files       = `git ls-files -- {test,spec,features}/*`.split("\n")
